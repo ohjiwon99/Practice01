@@ -7,7 +7,7 @@ public class Ex26 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("월급을 입력하세요:");
-		int Wage = Integer.parseInt(sc.nextLine());
+		int Wage = sc.nextInt();
 		
 		int month = 12;
 		int year = 10;
